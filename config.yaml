@@ -1,0 +1,44 @@
+baseURL: 'http://minseong.xyz/'
+languageCode: ko-kr
+title: 'minseong.xyz'
+theme: "undefined"
+buildFuture: true
+params:
+  contact: mscho@ubuntu-kr.org
+
+defaultContentLanguage: ko
+languages:
+  ko:
+    languageName: 한국어
+    title: Minseong Cho
+    weight: 1
+    params:
+      description: >-
+        이것저것을 적어두는 곳
+    menu:
+      main:
+      - identifier: blog
+        name: 블로그
+        url: blog
+        weight: 1
+      - identifier: Github
+        name: Github
+        url: none
+        weight: 2
+  en:
+    languageName: English
+    title: Minseong Cho
+    weight: 1
+    params:
+      description: >-
+        space for memorizing somthing else.
+    menu:
+      main:
+      - identifier: blog
+        name: blog
+        url: blog
+        weight: 1
+      - identifier: Github
+        name: Github
+        url: none
+        weight: 2
